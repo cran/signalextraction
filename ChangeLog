@@ -1,0 +1,132 @@
+2006-11-02 Marcel Dettling <dem@zhwin.ch>
+
+	* DESCRIPTION (Version): 1.0-1
+
+	* check.R: Bug fix for verbose checking
+
+	* predict.dfa.R: Addition of argument sequel & more improvements
+
+2006-11-24 Marcel Dettling <dem@zhwin.ch>
+
+	* DESCRIPTION (Version): 1.0-2
+
+	* DESCRIPTION (Suggests): tcltk
+
+	* zzz.R: Added this file for some GUI functionality
+
+	* dfa.R: Changed the default for n.loops: n.loops = 10
+
+	* dfa.Rd: Corresponding change n.loops = 10
+
+2007-01-05 Marcel Dettling <dem@zhwin.ch>
+
+	* DESCRIPTION (Version): 1.1-0
+
+	* DESCRIPTION (Title): Real-Time Signal Extraction (Direct...)
+
+	* DESCRIPTION (Description): Added the current description...
+
+	* idpSignalextraction-package.Rd: new description and details
+
+	* *.Rd: Updated the reference
+
+	* x.Rd: Title is now in capitals, new description, new reference
+
+	* dfa.Rd: New description, renamed some arguments (fwing became 
+	  tpfilter, phsc became lambda, and fwe became expweight). Also, the 
+	  description of the arguments was extended here and there.
+
+	* plot.dfa.Rd: Changed the description
+
+	* dfa.R: Renamed and regrouped the arguments; i.e. fwing became 
+	  tpfilter, phsc became lambda and fwe became expweight
+
+	* zzz.R: Changes in several places, such that the new arguments and 
+	  their order matches between GUI and command line version 
+
+2007-01-10 Marcel Dettling <dem@zhwin.ch>
+
+	* DESCRIPTION (Package): changed the name to 'signalextraction'
+
+	* DESCRIPTION (Version): changed it to 1.2.0
+
+	* DESCRIPTION (Date): changed it to today's date, 2007-01-10
+
+	* signalextraction-package.Rd: renamed this file to match the 
+	  package name, and updated the contents to match the package 
+	  name as well.
+
+	* dfa.R: Added two new arguments, sb and pb for the stop band and 
+	  the pass band. They have an effect on the transfer function. Made 
+	  some changes to the argument list, i.e. there is now again only
+	  one argument list with the new naming convention left.
+
+	* check.R: changed this function such that it works with the new
+	  argument list.
+
+	* dfa.Rd: Some slight changes in the description of argument 
+	  expweight, to make things easier to understand. Added a 
+	  description for the two new arguments pb and sb.
+
+	* plot.dfa.R: bug fix, still hat argli$dd in the code. And another one:
+	  there were passages with x$yf, but correct is now x$xf.
+
+	* fit.rda: re-saved this output object with current terminology
+	  of the arguments.
+
+	* fitted.dfa.R: bug fix, still had object$yf in the code, which needs
+	  to be object$xf.
+
+
+2007-03-08 Marcel Dettling <dem@zhwin.ch>
+
+	* DESCRIPTION (Version): changed it to 2.0.0
+
+	* DESCRIPTION (Date): changed it to today's date, 2007-03-08
+
+	* NAMESPACE: Added export(outsamp), removed S3method(predict, dfa)
+
+	* dfa.R: Various changes by Marc, unclear and undocumented what it 
+	  all was. In any case, two new arguments have been added, limamp
+	  and i2. Marcel then changed the order of the arguments, such that
+	  they are in logical flow. This included altering the arguemnt list
+	  and some subsequent changes. Moreover, renamend pb=lb and sb=ub
+	  throughout the code. Changed the default values for pbd and limamp,
+	  such that they match the recommendations in the tutorial.
+
+	* idefi.R: Various changes by Marc, unclear and undocumented what
+	  it all was. Marcel renamed pb=lb and sb=ub throughout.
+
+	* check.R: Added a new check for tpfilter=TRUE, as well as checks
+	  for the newly added arguments limamp and i2. 
+
+	* funcret.R: Various changes by Marc, unclear and undocumented what
+	  it all was. Some minor cosmetics by Marcel.
+
+	* outsamp.R: This used to be predict.dfa(), but the name was changed
+	  to outsamp(), since it is a filter routine, not a real prediction.
+
+	* parret.R: Maybe some changes by Marc!?! Minor cosmetics by Marcel.
+
+	* periodogram.R: Changes by Marc!?! Minor cosmetics by Marcel.
+
+	* dfa.Rd: Made all the necessary changes to match the documentation 
+	  with the changes in the code (main points new defaults to arguments, 
+	  new arguments). 
+
+	* outsamp.Rd: This used to be predict.dfa.Rd. Made the necessary 
+	  adaptations for the new function name.
+
+	* signalextraction-package.Rd: Changed the package version and the 
+	  date. Everything else remained the same.
+
+	* fit.rda: Re-saved the fit object that was obtained from the 
+	  modified function with the (new) default call.
+
+	* inst/doc: Added this directory and the vignette therein.
+
+	
+
+	
+
+	

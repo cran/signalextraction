@@ -1,0 +1,6 @@
+export(dfa)
+export(outsamp)
+
+S3method(coef, dfa)
+S3method(plot, dfa)
+S3method(fitted, dfa)

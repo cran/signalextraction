@@ -1,0 +1,19 @@
+Package:     signalextraction
+Type:        Package
+Title:       Real-Time Signal Extraction (Direct Filter Approach)
+Version:     2.0.0
+Date:        2007-03-08
+Author:      Marc Wildi & Marcel Dettling
+Maintainer:  Marcel Dettling, <dem@zhwin.ch>
+Description: The Direct Filter Approach (DFA) provides efficient estimates of 
+	     signals at the current boundary of time series in real-time. For 
+             that purpose, one-sided ARMA-filters are computed by minimizing
+             customized error criteria. The DFA can be used for estimating  
+             either the level or turning-points of a series, knowing that both
+             criteria are incongruent. In the context of real-time turning-
+             point detection, various risk-profiles can be operationalized, 
+             which account for the speed and/or the reliability of the one-
+             sided filter. 
+Suggests:    tcltk	
+License:     GPL 2.0
+Packaged: Wed Mar 14 15:02:41 2007; dem
