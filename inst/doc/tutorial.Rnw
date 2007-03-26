@@ -65,7 +65,7 @@ displayed in Figure 1. We will thus start our tutorial from there.
 
 \begin{figure}[h!] 
 \begin{center}
-\includegraphics{excelneu}
+\includegraphics[width=0.7\textwidth]{excelneu}
 \caption{A time series with measurement time information and
   informative headers stored in a spreadsheet. Row A contains
   the headers \emph{time} and \emph{series}, column A information
@@ -280,7 +280,7 @@ optimization criteria can be accessed :
 \end{itemize}
 \begin{figure}[htb!] 
 \begin{center}
-\includegraphics{levelfilter_la5_exp2k5_pbd1k02_pb_14_sb7_limamp5_nloops10_d0}
+\includegraphics[width=\textwidth]{levelfilter_la5_exp2k5_pbd1k02_pb_14_sb7_limamp5_nloops10_d0}
 \caption{Graphical output after a signal extraction using the
   \texttt{dfa()} routine for best level estimation (with default
   arguments) on the business survey data \texttt{x}. The top two
@@ -344,7 +344,7 @@ The filter output in Figure \ref{fig2} has been obtained by using the following 
 
 \begin{figure}[h!] 
 \begin{center}
-\includegraphics{tpfilter_la5_exp1k5_pbd1k02_pb_6k5_sb6_limamp5_nloops10_d0}
+\includegraphics[width=\textwidth]{tpfilter_la5_exp1k5_pbd1k02_pb_6k5_sb6_limamp5_nloops10_d0}
 \caption{Graphical output after a signal extraction using the
   \texttt{dfa()} routine for turning point detection. The top two
   panels show the original and filtered time series, the middle two
@@ -479,7 +479,7 @@ compare filter outputs obtained by alternative settings:
 
 \begin{figure}[htb!] 
 \begin{center}
-\includegraphics{parametersetting}
+\includegraphics[width=\textwidth]{parametersetting}
 \caption{Effect of various parameter-settings on filter
   outputs\label{fig4}}
 \end{center}
@@ -586,7 +586,7 @@ extracts the coefficients directly. It is called by
 \end{verbatim}
 \begin{figure}[htb!] 
 \begin{center}
-\includegraphics[width=1.5\textwidth]{level_in_and_outofsample}
+\includegraphics[width=\textwidth]{level_in_and_outofsample}
 \caption{Level filter that was estimated on the business survey data
   (observations 1-183, filter values are in red) and then applied to a
   simulated series with similar mathematical properties (observations

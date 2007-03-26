@@ -1,9 +1,9 @@
-This is pdfeTeX, Version 3.141592-1.30.6-2.2 (MiKTeX 2.5) (preloaded format=pdflatex 2007.3.13)  14 MAR 2007 15:02
+This is pdfeTeX, Version 3.141592-1.30.6-2.2 (MiKTeX 2.5) (preloaded format=pdflatex 2007.3.13)  26 MAR 2007 15:50
 entering extended mode
-**V:/dem/Projekte/KOF/signalextraction-2.0.0/signalextraction/inst/doc/tutorial
+**v:/dem/Projekte/KOF/signalextraction-2.0.1/signalextraction/inst/doc/tutorial
 .tex
 
-(V:\dem\Projekte\KOF\signalextraction-2.0.0\signalextraction\inst\doc\tutorial.
+(v:\dem\Projekte\KOF\signalextraction-2.0.1\signalextraction\inst\doc\tutorial.
 tex
 LaTeX2e <2005/12/01>
 Babel <v3.8g> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -154,8 +154,7 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
 (C:\texmf\tex\latex\ae\t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-))))
-No file tutorial.aux.
+)))) (tutorial.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
@@ -231,37 +230,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--35
  []
 
 
-LaTeX Warning: Citation `wildi2007' on page 1 undefined on input line 37.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 36--53
 
  []
 
 [1
 
-{psfonts.map}]
-
-V:/dem/Projekte/KOF/signalextraction-2.0.0/signalextraction/inst/doc/tutorial.t
-ex:69: LaTeX Error: File `excelneu' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.PNG,.PDF,.JPG,.JPEG
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+{psfonts.map}] <excelneu.png, id=41, 200.75pt x 160.6pt>
+File: excelneu.png Graphic file (type png)
+<use excelneu.png>
 LaTeX Font Info:    Try loading font information for T1+aett on input line 80.
- (C:\texmf\tex\latex\ae\t1aett.fd
+(C:\texmf\tex\latex\ae\t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-) [2]
+) [2 <excelneu.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 133--141
 
  []
-
-
-LaTeX Warning: Citation `wildi2007' on page 3 undefined on input line 144.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 142--149
@@ -269,41 +253,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--149
  []
 
 
-LaTeX Warning: Reference `foot1' on page 3 undefined on input line 151.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 150--159
 
  []
-
-
-LaTeX Warning: Reference `fig1' on page 3 undefined on input line 164.
-
-
-LaTeX Warning: Reference `fig2' on page 3 undefined on input line 164.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 160--173
 
  []
 
- [3]
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 199--205
 
  []
-
-
-LaTeX Warning: Reference `levapp' on page 4 undefined on input line 208.
-
-
-LaTeX Warning: Reference `section5' on page 4 undefined on input line 209.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 213--223
 
  []
 
-
+[4]
 Overfull \hbox (6.07935pt too wide) in paragraph at lines 244--244
 []    \T1/aett/m/n/10 ttr[weli[1]+weli[length(weli)]-weli] <- term1/(npg2*sb-np
 g2*pb)[] 
@@ -314,112 +283,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--252
 
  []
 
- [4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 265--273
 
  []
 
 LaTeX Font Info:    Try loading font information for TS1+aer on input line 277.
 
- (C:\Programme\R\share\texmf\ts1aer.fd
+(C:\Programme\R\share\texmf\ts1aer.fd
 File: ts1aer.fd 
 )
 LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10> not available
 (Font)              Font shape `TS1/cmr/m/n' tried instead on input line 277.
 
-
-V:/dem/Projekte/KOF/signalextraction-2.0.0/signalextraction/inst/doc/tutorial.t
-ex:284: LaTeX Error: File `levelfilter_la5_exp2k5_pbd1k02_pb_14_sb7_limamp5_nlo
-ops10_d0' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.PNG,.PDF,.JPG,.JPEG
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
- [5]
+<levelfilter_la5_exp2k5_pbd1k02_pb_14_sb7_limamp5_nloops10_d0.pdf, id=72, 516.9
+3124pt x 516.93124pt>
+File: levelfilter_la5_exp2k5_pbd1k02_pb_14_sb7_limamp5_nloops10_d0.pdf Graphic 
+file (type pdf)
+<use levelfilter_la5_exp2k5_pbd1k02_pb_14_sb7_limamp5_nloops10_d0.pdf> [5]
 Underfull \hbox (badness 10000) in paragraph at lines 323--327
 
  []
 
-
+[6 <levelfilter_la5_exp2k5_pbd1k02_pb_14_sb7_limamp5_nloops10_d0.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 329--335
 
  []
 
 
-LaTeX Warning: Reference `fig2' on page 6 undefined on input line 336.
+<tpfilter_la5_exp1k5_pbd1k02_pb_6k5_sb6_limamp5_nloops10_d0.pdf, id=94, 516.931
+24pt x 516.93124pt>
+File: tpfilter_la5_exp1k5_pbd1k02_pb_6k5_sb6_limamp5_nloops10_d0.pdf Graphic fi
+le (type pdf)
+<use tpfilter_la5_exp1k5_pbd1k02_pb_6k5_sb6_limamp5_nloops10_d0.pdf>
 
-
-
-V:/dem/Projekte/KOF/signalextraction-2.0.0/signalextraction/inst/doc/tutorial.t
-ex:348: LaTeX Error: File `tpfilter_la5_exp1k5_pbd1k02_pb_6k5_sb6_limamp5_nloop
-s10_d0' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.PNG,.PDF,.JPG,.JPEG
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `fig2' on page 6 undefined on input line 367.
-
-
-LaTeX Warning: Reference `fig1' on page 6 undefined on input line 371.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 357--372
 
  []
 
- [6] [7]
-
-LaTeX Warning: Reference `fig4' on page 8 undefined on input line 452.
-
-
-LaTeX Warning: Reference `fig2' on page 8 undefined on input line 454.
-
-
-LaTeX Warning: Reference `fig4' on page 8 undefined on input line 455.
-
-
-LaTeX Warning: Reference `fig4' on page 8 undefined on input line 465.
-
-
-Overfull \hbox (9.40076pt too wide) in paragraph at lines 465--472
-[]\T1/aer/m/n/10 Blue line in Fig-ure []: the se-ries is based on \T1/aett/m/n/
-10 lambda=2 \T1/aer/m/n/10 (in-stead of \T1/aett/m/n/10 lambda=5\T1/aer/m/n/10 
-),
+[7] [8 <tpfilter_la5_exp1k5_pbd1k02_pb_6k5_sb6_limamp5_nloops10_d0.pdf>]
+Overfull \hbox (3.54092pt too wide) in paragraph at lines 465--472
+[]\T1/aer/m/n/10 Blue line in Fig-ure 4[]: the se-ries is based on \T1/aett/m/n
+/10 lambda=2 \T1/aer/m/n/10 (in-stead of \T1/aett/m/n/10 lambda=5\T1/aer/m/n/10
+ ),
  []
 
-
-LaTeX Warning: Reference `fig4' on page 8 undefined on input line 472.
-
-
-LaTeX Warning: Reference `sect3' on page 8 undefined on input line 476.
-
-
-
-V:/dem/Projekte/KOF/signalextraction-2.0.0/signalextraction/inst/doc/tutorial.t
-ex:483: LaTeX Error: File `parametersetting' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.PNG,.PDF,.JPG,.JPEG
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
- [8]
+[9] <parametersetting.pdf, id=111, 516.93124pt x 516.93124pt>
+File: parametersetting.pdf Graphic file (type pdf)
+<use parametersetting.pdf>
 Underfull \hbox (badness 10000) in paragraph at lines 503--518
 
  []
 
-
+[10 <parametersetting.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 519--526
 
  []
@@ -434,20 +353,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 540--542
 
  []
 
- [9]
-
-
-V:/dem/Projekte/KOF/signalextraction-2.0.0/signalextraction/inst/doc/tutorial.t
-ex:590: LaTeX Error: File `level_in_and_outofsample' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.PNG,.PDF,.JPG,.JPEG
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
+[11] <level_in_and_outofsample.pdf, id=124, 516.93124pt x 516.93124pt>
+File: level_in_and_outofsample.pdf Graphic file (type pdf)
+<use level_in_and_outofsample.pdf>
 Underfull \hbox (badness 10000) in paragraph at lines 597--604
 
  []
@@ -457,47 +365,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 605--613
 
  []
 
- [10]
-
-LaTeX Warning: Reference `fig5' on page 11 undefined on input line 644.
-
-
+[12] [13 <level_in_and_outofsample.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 643--645
 
  []
 
-No file tutorial.bbl.
- [11] (tutorial.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(tutorial.bbl) [14] (tutorial.aux) ) 
 Here is how much of TeX's memory you used:
- 2411 strings out of 95419
- 30262 string characters out of 1187845
- 72865 words of memory out of 1072469
- 5320 multiletter control sequences out of 60000
- 38764 words of font info for 81 fonts, out of 1000000 for 2000
+ 2362 strings out of 95419
+ 29831 string characters out of 1187845
+ 72942 words of memory out of 1072546
+ 5339 multiletter control sequences out of 60000
+ 36333 words of font info for 77 fonts, out of 1000000 for 2000
  14 hyphenation exceptions out of 8191
- 35i,13n,21p,545b,247s stack positions out of 5000i,500n,10000p,200000b,32768s
+ 35i,13n,21p,545b,259s stack positions out of 5000i,500n,10000p,200000b,32768s
 PDF statistics:
- 104 PDF objects out of 300000
+ 140 PDF objects out of 300000
  0 named destinations out of 300000
- 1 words of extra memory for PDF output out of 10000
-<C:/texmf/fonts/type1/bluesky/cm/cmbx8.pfb><C:/texmf/fonts/type1/bluesky/cm/c
-msy8.pfb><C:/texmf/fonts/type1/bluesky/cm/cmmi6.pfb>{cm-super-ts1.enc}<C:/texmf
-/fonts/type1/public/cm-super/sfrm1000.pfb><C:/texmf/fonts/type1/bluesky/cm/cmtt
-8.pfb><C:/texmf/fonts/type1/bluesky/cm/cmsy10.pfb><C:/texmf/fonts/type1/bluesky
-/cm/cmex10.pfb><C:/texmf/fonts/type1/bluesky/cm/cmti8.pfb><C:/texmf/fonts/type1
-/bluesky/cm/cmsy6.pfb><C:/texmf/fonts/type1/bluesky/cm/cmtt10.pfb><C:/texmf/fon
-ts/type1/bluesky/cm/cmr8.pfb><C:/texmf/fonts/type1/bluesky/cm/cmmi8.pfb><C:/tex
-mf/fonts/type1/bluesky/cm/cmr6.pfb><C:/texmf/fonts/type1/bluesky/cm/cmsy7.pfb><
-C:/texmf/fonts/type1/bluesky/cm/cmbx10.pfb><C:/texmf/fonts/type1/bluesky/cm/cmt
-i10.pfb><C:/texmf/fonts/type1/bluesky/cm/cmmi7.pfb><C:/texmf/fonts/type1/bluesk
-y/cm/cmr7.pfb><C:/texmf/fonts/type1/bluesky/cm/cmmi10.pfb><C:/texmf/fonts/type1
-/bluesky/cm/cmr10.pfb><C:/texmf/fonts/type1/bluesky/cm/cmbx12.pfb><C:/texmf/fon
-ts/type1/bluesky/cm/cmr12.pfb><C:/texmf/fonts/type1/bluesky/cm/cmr17.pfb>
-Output written on tutorial.pdf (11 pages, 174391 bytes).
+ 26 words of extra memory for PDF output out of 10000
+<C:/texmf/fonts/type1/bluesky/cm/cmsy8.pfb>
+<C:/texmf/fonts/type1/bluesky/cm/cmmi6.pfb>{cm-super-ts1.enc}<C:/texmf/fonts/ty
+pe1/public/cm-super/sfrm1000.pfb><C:/texmf/fonts/type1/bluesky/cm/cmtt8.pfb><C:
+/texmf/fonts/type1/bluesky/cm/cmsy10.pfb><C:/texmf/fonts/type1/bluesky/cm/cmex1
+0.pfb><C:/texmf/fonts/type1/bluesky/cm/cmti8.pfb><C:/texmf/fonts/type1/bluesky/
+cm/cmsy6.pfb><C:/texmf/fonts/type1/bluesky/cm/cmbx10.pfb><C:/texmf/fonts/type1/
+bluesky/cm/cmtt10.pfb><C:/texmf/fonts/type1/bluesky/cm/cmr8.pfb><C:/texmf/fonts
+/type1/bluesky/cm/cmmi8.pfb><C:/texmf/fonts/type1/bluesky/cm/cmr6.pfb><C:/texmf
+/fonts/type1/bluesky/cm/cmsy7.pfb><C:/texmf/fonts/type1/bluesky/cm/cmti10.pfb><
+C:/texmf/fonts/type1/bluesky/cm/cmmi7.pfb><C:/texmf/fonts/type1/bluesky/cm/cmr7
+.pfb><C:/texmf/fonts/type1/bluesky/cm/cmmi10.pfb><C:/texmf/fonts/type1/bluesky/
+cm/cmr10.pfb><C:/texmf/fonts/type1/bluesky/cm/cmbx12.pfb><C:/texmf/fonts/type1/
+bluesky/cm/cmr12.pfb><C:/texmf/fonts/type1/bluesky/cm/cmr17.pfb>
+Output written on tutorial.pdf (14 pages, 254419 bytes).

@@ -125,6 +125,13 @@
 
 	* inst/doc: Added this directory and the vignette therein.
 
+2007-03-26 Marcel Dettling <dem@zhwin.ch>
+
+	* DESCRIPTION (Version): changed it to 2.0.1
+
+	* DESCRIPTION (Date): changed it to today's date, 2007-03-26
+
+	* inst/doc: added PDF plots, such that they appear in the vignette
 	
 
 	
