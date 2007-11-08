@@ -132,6 +132,24 @@
 	* DESCRIPTION (Date): changed it to today's date, 2007-03-26
 
 	* inst/doc: added PDF plots, such that they appear in the vignette
+
+2007-11-05 Marcel Dettling <dtli@zhaw.ch>
+
+	* DESCRIPTION (Version): changed it to 2.0.2
+
+	* DESCRIPTION (Date): changed it to today's date, 2007-11-05
+
+	* DESCRIPTION (License): changed it to GPL (>= 2)
+
+	* dfa.R: fixed call to control in optim()
+
+	* funcret.R: unknown changes by Marc
+
+	* coef.dfa.R: changed the \usage call
+
+	* fitted.dfa.R: changed the \usage call
+
+	* plot.dfa.R: changed the \usage call
 	
 
 	

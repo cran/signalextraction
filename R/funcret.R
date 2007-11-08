@@ -1,8 +1,7 @@
-## Filter Optimization
-funcret <- function(parm, al) 
+## Filteroptimierung
+funcret <- function(parm, al)        #parm<-parma
   {
-    ## Constrain parameter values to meaningful settings: otherwise the
-    ## optimization may break down
+    ## constrain parameter values to meaningful settings: otherwise the optimization may break down
     sp   <- sign(parm)
     parm <- sp*apply(cbind(abs(parm),1000000*rep(1,length(parm))),1,min)
 
@@ -20,7 +19,8 @@ funcret <- function(parm, al)
         zarg  <- c(parm[(al$nnull+1)], arg[al$parw])
             
         ## If the norm of the zero is ok, set the parameter, else 1
-        temp  <-  ifelse(al$parh,parm[1+1:length(al$parh)][al$parh],1) 
+        temp  <-  ifelse(al$parh,parm[1+1:length(al$parh)][al$parh],1)
+#        temp  <-  ifelse(al$parh,parm[1+1:length(al$parh)],1) 
         zabs  <-  abs(c(parm[1],temp[al$parw]))         
 
         z     <<- zabs*exp(1.i*zarg)  
@@ -98,8 +98,7 @@ funcret <- function(parm, al)
           tff1 <<- sign(tff1)*abs(trffkt)[1]/0.75
           amp  <<- abs(trffkt)/abs(tff1)
         }
-        pha <<- c(1,Arg(trffkt[2:length(trffkt)]/tff1)*(length(trffkt)-1)/
-                  ((1:(length(trffkt)-1))*pi))
+        pha<<-c(1,Arg(trffkt[2:length(trffkt)]/tff1)*(length(trffkt)-1)/((1:(length(trffkt)-1))*pi))
         ## Computation of the delay at frequency 0
         pha[1] <<- -Re((rep(1,(sum(al$parw)+1)*2+1)%*%
                     c(1/(c(z0,z)-1),1/(zbar-1))-rep(1,(sum(al$parw)+1)*
@@ -116,8 +115,9 @@ funcret <- function(parm, al)
     if (length(parm) > 2*al$nnull+3)
       {
         temp <- max(abs(trffkt)/abs(trffkt[1]))
-        if (max(abs(trffkt[1:((length(trffkt)-1)/6)]/trffkt[1]))>al$limamp |
-            min(abs(p))<al$pbd)
+        thpb<-ifelse(al$quart,2,6)
+        if (max(abs(trffkt[1:((length(trffkt)-1)/thpb)]/trffkt[1]))>al$limamp | 
+        min(abs(p))<al$pbd)
           {
             out <- 1e+90
           } else
@@ -135,3 +135,4 @@ funcret <- function(parm, al)
     ## Output
     out
   }
+  

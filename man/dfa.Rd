@@ -120,7 +120,7 @@
   Maximum Likelihood Principles)}, Springer. To appear in 2007.}
 \author{Marc Wildi & Marcel Dettling, <[wia/dem]@zhwin.ch>}
 \seealso{\code{\link{coef.dfa}}, \code{\link{fitted.dfa}},
-  \code{\link{plot.dfa}}, \code{\link{outsamp}}}
+    \code{\link{plot.dfa}}, \code{\link{outsamp}}} 
 \examples{
 data(fit)
 

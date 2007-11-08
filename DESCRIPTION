@@ -1,8 +1,8 @@
 Package:     signalextraction
 Type:        Package
 Title:       Real-Time Signal Extraction (Direct Filter Approach)
-Version:     2.0.1
-Date:        2007-03-26
+Version:     2.0.2
+Date:        2007-11-08
 Author:      Marc Wildi & Marcel Dettling
 Maintainer:  Marcel Dettling, <dem@zhwin.ch>
 Description: The Direct Filter Approach (DFA) provides efficient estimates of 
@@ -15,5 +15,5 @@ Description: The Direct Filter Approach (DFA) provides efficient estimates of
              which account for the speed and/or the reliability of the one-
              sided filter. 
 Suggests:    tcltk	
-License:     GPL 2.0
-Packaged: Mon Mar 26 15:50:26 2007; dem
+License:     GPL (>= 2)
+Packaged: Thu Nov  8 12:11:14 2007; dtli

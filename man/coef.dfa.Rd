@@ -4,7 +4,7 @@
 \description{The one-sided filter that is obtained from
   \code{\link{dfa}} is translated into an ARMA(16,16)-model. These
   ARMA-coefficients are returned here.} 
-\usage{coef.dfa(object, ...)}
+\usage{\method{coef}{dfa}(object, ...)}
 \arguments{\item{object}{An \R object of \code{\link{class}}
              \code{"dfa"}, typically the result of \code{\link{dfa}()}.}
            \item{...}{Further arguments passed to or from other

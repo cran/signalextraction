@@ -6,7 +6,7 @@
   filter output, periodogram of the input and output series, as well as
   the amplitude and time shift (delay) functions of the one-sided
   filter.}   
-\usage{plot.dfa(x, ...)}
+\usage{\method{plot}{dfa}(x, ...)}
 \arguments{\item{x}{An \R object of \code{\link{class}} \code{"dfa"},
     typically the result of \code{\link{dfa}()}.}
            \item{...}{Further arguments passed to or from other
