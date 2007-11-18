@@ -1,8 +1,7 @@
-dfa <- function(x, quart = FALSE, d = 0, pb = 1/14, sb = 1/7, tpfilter
-                 = FALSE, lambda = 3, expweight = 1.5, pbd = if
-                 ((length(x) < 100)) 1.08 else 1.03, limamp = if
-                 (!tpfilter) 1.5 else 3, i2 = TRUE, n.loops = 10,
-                 verbose = 1)
+dfa <- function(x, quart = FALSE, d = 0, pb = 1/14, sb = 1/7, tpfilter = FALSE,
+                lambda = 3, expweight = 1.5, pbd =if((length(x)<100)) 1.08 else
+                1.03, limamp = if(!tpfilter) 1.5 else 3, i2 = TRUE, n.loops =
+                10, verbose = 1)
   {
     ## Renaming arguments to follow the old conventions
     dd    <- d
@@ -11,9 +10,9 @@ dfa <- function(x, quart = FALSE, d = 0, pb = 1/14, sb = 1/7, tpfilter
     fwe   <- expweight
 
     ## Function call with new variable names
-    argli <- list(x=x, quart=quart, d=dd, tpfilter=tpfilter, lambda=lambda,
-                   expweight=expweight, pbd=pbd, pb=pb, sb=sb, n.loops=n.loops,
-                   verbose=verbose)
+    argli <- list(x=x, quart=quart, d=dd, pb=pb, sb=sb, tpfilter=tpfilter,
+                  lambda=lambda, expweight=expweight, pbd=pbd, limamp =
+                  limamp, i2=i2, n.loops=n.loops, verbose=verbose)
 
     ## Checking the input for conformity
     check(argli)

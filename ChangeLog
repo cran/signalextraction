@@ -150,6 +150,16 @@
 	* fitted.dfa.R: changed the \usage call
 
 	* plot.dfa.R: changed the \usage call
+
+2007-11-18 Marcel Dettling <dtli@zhaw.ch>
+
+	* DESCRIPTION (Version): changed it to 2.0.3
+
+	* DESCRIPTION (Date): changed it to 2007-11-18
+
+	* DESCRIPTION (Maintainer): changed the e-mail address
+
+	* dfa.R: fixed the argument list such that things work again
 	
 
 	
